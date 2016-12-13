@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to right, #fcecfc 0,#fba6e1 32%,#fd89d7 44%,#ff7ccd 100%);
+    //I'm loving this
+
+}
+
+main {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 250px;
+    padding: 10px 5px;
+    margin: 10px;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    background-image: repeating-radial-gradient(ellipse farthest-corner at left bottom,rgb(243, 239, 21) 0%,rgb(0, 152, 133) 100%);
+    box-shadow: 0 5px 0 0 #00907d;
+    font-size: 1.1em;
+}
+.button:hover {
+
+}
+.button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0 1px 0 0;
+}
